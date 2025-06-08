@@ -8,8 +8,12 @@ const SingleProduct = () => {
   return (
     <View>
       <Text>SingleProduct</Text>
+      <Text>{params.name}</Text>
+      <Text>{params.city}</Text>
+      <Text>{params.productId}</Text>
     </View>
   )
 }
 
-export default SingleProduct
+export default SingleProduct;
+
